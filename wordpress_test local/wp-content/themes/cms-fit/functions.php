@@ -3,6 +3,7 @@ function cms_fit_setup()
 {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
+    add_image_size('cms-fit-featured', 1200, 675, true);
     register_nav_menus(array(
         'primary' => 'Menu chính',
     ));

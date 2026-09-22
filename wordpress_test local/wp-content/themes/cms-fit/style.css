@@ -65,6 +65,20 @@ body {
     line-height: 1.5;
 }
 
+.post-list-content img {
+    height: auto;
+}
+
+.entry-content {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.entry-content img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* ===== Module 4: Search results ===== */
 .search-results-header {
     background: #dce8e2;
