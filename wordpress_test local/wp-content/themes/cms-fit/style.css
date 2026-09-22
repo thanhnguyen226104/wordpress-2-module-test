@@ -12,18 +12,21 @@ body {
     margin: 0;
 }
 
+.site-header .navbar-brand {
+    color: #1a73c7;
+}
+
 /* ===== Module 2: Content - danh sách bài viết ===== */
 .post-list-item {
-    display: flex;
     align-items: flex-start;
-    gap: 20px;
     padding: 20px 0;
     border-bottom: 1px solid #e5e5e5;
 }
+
 .post-list-date {
-    flex: 0 0 70px;
     text-align: center;
 }
+
 .post-list-date .day {
     display: block;
     font-size: 32px;
@@ -31,6 +34,7 @@ body {
     color: #333;
     line-height: 1.1;
 }
+
 .post-list-date .month {
     display: block;
     font-size: 12px;
@@ -38,18 +42,22 @@ body {
     color: #888;
     letter-spacing: 1px;
 }
+
 .post-list-title {
     margin: 0 0 8px;
     font-size: 16px;
     font-weight: 700;
 }
+
 .post-list-title a {
     color: #1a73c7;
     text-decoration: none;
 }
+
 .post-list-title a:hover {
     text-decoration: underline;
 }
+
 .post-list-excerpt {
     margin: 0;
     font-size: 14px;
@@ -63,6 +71,7 @@ body {
     padding: 30px;
     margin-bottom: 20px;
 }
+
 .search-results-title {
     font-size: 28px;
     font-weight: 400;
@@ -70,14 +79,17 @@ body {
     padding-bottom: 15px;
     margin: 0;
 }
+
 .search-no-results p {
     color: #2e7d32;
     font-size: 14px;
     margin-bottom: 15px;
 }
+
 .form-control-borderless {
     border: none;
 }
+
 .form-control-borderless:hover,
 .form-control-borderless:active,
 .form-control-borderless:focus {
